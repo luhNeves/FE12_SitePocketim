@@ -47,3 +47,57 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
+.banner{
+    height: 610px;
+    width: 1879px;
+    background-image: url(../img/pocketim\ banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-banner h1{
+    color: white;
+    font-size: 95px;
+}
+.conteudo-banner p{
+    color: white;
+    font-size: 36px;
+    padding: 5px 0 10px 30px;
+}
+.conteudo-banner a{
+    padding: 15px;
+    background-color: #F989B1;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.conteudo-banner{
+    width: 497px;
+    height: 237px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+
+.posicionamento-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 210px;
+    padding-left: 200px;
+    
+}
+
+body{
+    background-color: #FFD4E9;
+}
+

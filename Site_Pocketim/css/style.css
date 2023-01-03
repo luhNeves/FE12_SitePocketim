@@ -16,6 +16,7 @@ header{
     background-color: #F989B1;
     height: 151px;
     padding-top: 20px;
+    
 }
 
 .container-grid{
@@ -46,6 +47,7 @@ header{
     width: 700px;
     display: flex;
     justify-content: space-between;
+
 }
 
 .banner{
@@ -101,3 +103,8 @@ body{
     background-color: #FFD4E9;
 }
 
+.posicionamento-quadro{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}

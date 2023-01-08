@@ -9,14 +9,21 @@
 }
 
 a{
-    color:brown
+    color:brown;
 }
 
 header{
     background-color: #F989B1;
     height: 151px;
-    padding-top: 20px;
-    
+    transition: 0.2s ease-in-out;
+}
+
+.scrolling-active {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    background: transparent;
+    transition: 0.2s ease-in-out;
 }
 
 .container-grid{
@@ -28,13 +35,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
+}
+
+.scrolling-active .menu a {
+    color: #F989B1;
 }
 
 .menu a{
     color:white;
     text-decoration: none;
     font-size: 29px;
-    
 }
 
 .LogoPrincipal{
@@ -62,11 +73,21 @@ header{
 .conteudo-banner h1{
     color: white;
     font-size: 95px;
+    -webkit-text-stroke: 2px #F989B1;
+    text-shadow:  1px 2px 6px #F989B1;
+    
 }
 .conteudo-banner p{
     color: white;
     font-size: 36px;
     padding: 5px 0 10px 30px;
+    -webkit-text-stroke: 1px #F989B1;
+    text-shadow: -1px 1px 0 #F989B1,
+				  1px 1px 0 #F989B1,
+				 1px -1px 0 #F989B1;
+				
+    
+    
 }
 .conteudo-banner a{
     padding: 15px;
@@ -107,4 +128,12 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 25px;
+}
+
+.botao-play {
+    stroke: #D74C7E;
+}
+
+.posicionamento-quadro img{
+    width: 1500px;
 }

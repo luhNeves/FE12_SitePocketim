@@ -64,7 +64,15 @@ header{
     width: 700px;
     display: flex;
     justify-content: space-between;
+}
 
+.fa-bars{ 
+    font-size: 50px;
+    color: white;
+}
+
+#barras{
+    display: none;
 }
 
 .banner{
@@ -230,4 +238,32 @@ body{
     margin-top: 5px;
     margin-left: 8px;
     font-size: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    #barras{
+        display: inline-block;
+    }
+
+    .menu{
+        display: none;
+
+        position: absolute;
+        top: 148px;
+        right: 0px;
+       
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        background-color:#F989B1;
+        height: 400px;
+    }
+
+    .menu a{
+        font-size: 30px;
+    }
+    .container-grid{ 
+        width: 800px;
+    }
 }

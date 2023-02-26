@@ -66,6 +66,10 @@ header{
     justify-content: space-between;
 }
 
+.menu-ativo{
+    display: flex !important;
+}
+
 .fa-bars{ 
     font-size: 50px;
     color: white;

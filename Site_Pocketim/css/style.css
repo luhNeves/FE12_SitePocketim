@@ -244,6 +244,29 @@ body{
     font-size: 25px;
 }
 
+footer{
+    background-color: #F989B1;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+.Pfooter{
+    margin-top: 18px;
+    margin-left: 25px;
+    font-size: 25px;
+    color:white;
+}
+
+.cadastro{
+    margin-left: 10px;
+}
+
+.links{
+    margin-left: 65%;
+    gap: 10px;
+}
+
 @media screen and (max-width: 1000px) {
     #barras{
         display: inline-block;

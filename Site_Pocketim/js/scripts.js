@@ -8,11 +8,11 @@ const menu = document.getElementById('menu')
 
 $(document).ready(function(){
     console.log(menu.classList)
-    $("#barras").click(function(){
-       if ($("#menu").hasClass("menu-ativo")){
+    $("#barras").click(function() {
+       if ($("#menu").hasClass("menu-ativo")) {
             $("#menu").removeClass("menu-ativo")
-       }else{
-        $("#menu").addClass("menu-ativo")
+       } else {
+            $("#menu").addClass("menu-ativo")
        }
         
         
